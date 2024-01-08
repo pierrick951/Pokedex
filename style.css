@@ -1,0 +1,44 @@
+body {
+  background-color: #7e7e7e;
+}
+
+.container {
+  background-color: red;
+  width: 400px;
+  height: 450;
+  border-top-right-radius: 32px;
+
+  transform: translate(2em);
+  display: flex; /* Utilisation de flexbox */
+  flex-direction: column;
+  align-items: center; /* Centrage vertical des enfants */
+  box-shadow: 0 0 10px rgba(0, 0, 8, 0.9)
+}
+
+.pokemonCard {
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  border-top-right-radius: 32px;
+  box-shadow: 0 0 10px rgba(0, 0, 8, 0.9);
+  transform: translateY(2em);
+  text-align: center;
+}
+
+button{
+    transform: translateY(60px);
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+    background-color: blue;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Prev {
+    background-color: green;
+}
+
+
+
